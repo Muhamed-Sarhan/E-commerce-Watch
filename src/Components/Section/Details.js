@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { DataContext } from "../Context";
 import Colors from "./Colors";
 import "../Css/Details.css";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 
 export const Details = () => {
   const { id } = useParams();
